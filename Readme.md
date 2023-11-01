@@ -10,7 +10,7 @@ Este é um projeto do desafio Classificador de Nível de Herói da DIO, onde o c
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local.
 ```
-git clone https://github.com/seu-usuario/classificador-de-heroi.git
+git clone https://github.com/davidgts/classificador-de-heroi.git
 ```
 
 Abra o arquivo index.js em seu editor de código.
