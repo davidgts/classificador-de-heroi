@@ -12,7 +12,7 @@ console.table(tablePlayers,["nome","xp"])
 
 tablePlayers.forEach((e)=>{
     let level = ''
-    if(e.xp<=1000){ // No caso de ser 1000 de xp o Herói não teria nenhum nível
+    if(e.xp<=1000){ // No caso de ser 1000 de xp o Herói não teria nenhum nível, então coloquei o operador menor igual
         level = 'Ferro'
     }else if(e.xp<=2000){
         level = 'Bronze'
@@ -29,8 +29,7 @@ tablePlayers.forEach((e)=>{
     }else{
         level='Radiante'
     } 
-    
-    
+        
     console.log(`O herói de nome **{${e.nome}}** está no nível **{${level}}** com o xp : ${e.xp} `);
     
 })
